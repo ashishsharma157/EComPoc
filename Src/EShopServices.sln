@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Or
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Domain", "Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{57A91427-455E-4FBC-912F-75980A84279C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Application", "Services\Ordering\Order.Application\Order.Application.csproj", "{A8DA963D-05F4-470B-AABE-AB35FA23B9A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Services\Ordering\Order.Application\Ordering.Application.csproj", "{A8DA963D-05F4-470B-AABE-AB35FA23B9A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{A17498FD-DBAA-41F3-91F4-5844B312FBFA}"
 EndProject
