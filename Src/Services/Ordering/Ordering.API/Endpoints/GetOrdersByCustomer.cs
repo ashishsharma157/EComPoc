@@ -15,12 +15,12 @@ namespace Ordering.API.Endpoints
 
                 return Results.Ok(response);
             })
-            .WithName("GetOrdersByName")
+            .WithName("GetOrdersByCustomer")
             .Produces<GetOrderByCustomerResponse>(StatusCodes.Status200OK)
             .ProducesProblem(StatusCodes.Status400BadRequest)
             .ProducesProblem(StatusCodes.Status404NotFound)
-            .WithSummary("Get Orders by name")
-            .WithDescription("Get orders by name");
+            .WithSummary("Get Orders by customer")
+            .WithDescription("Get orders by customer");
         }
     }
 }

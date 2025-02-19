@@ -27,7 +27,7 @@
 
             foreach (var item in orderDto.OrderItems)
             {
-                newOrder.Add(ProductId.Of(item.ProductId), item.Qunatity, item.Price);   
+                newOrder.Add(ProductId.Of(item.ProductId), item.Quantity, item.Price);   
             }
 
             return newOrder;
