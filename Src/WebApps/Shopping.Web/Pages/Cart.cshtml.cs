@@ -3,7 +3,7 @@ namespace Shopping.Web.Pages
     public class CartModel(IBasketServices basketService, ILogger<CartModel> logger) : PageModel
     {
         public ShoppingCartModel Cart { get; set; } = new ShoppingCartModel();
-        public async Task<IActionResult> OnGetAsyn()
+        public async Task<IActionResult> OnGetAsync()
         {
             Cart = await basketService.LoadUserBasket();
 

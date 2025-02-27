@@ -4,7 +4,7 @@ namespace Shopping.Web.Services
 {
     public interface IBasketServices
     {
-        [Get("/basket-service/basket/{useName}")]
+        [Get("/basket-service/basket/{userName}")]
         Task<GetBasketResponse> GetBasket(string userName);
 
         [Post("/basket-service/basket/")]
